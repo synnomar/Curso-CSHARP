@@ -1,7 +1,10 @@
 ﻿using AbstractBankAccount.Entities;
 using System;
+<<<<<<< HEAD
 using System.Collections.Generic;
 using System.Globalization;
+=======
+>>>>>>> 9c65009927c0e9a4b7b819ceb3352ba3923c39f6
 
 namespace MyApplication
 {
@@ -10,6 +13,7 @@ namespace MyApplication
         static void Main(string[] args)
         {
 
+<<<<<<< HEAD
            List<Account> accountsList = new List<Account>();
 
             accountsList.Add(new SavingsAccount(1001,"Alex", 500.00, 0.01));
@@ -43,6 +47,19 @@ namespace MyApplication
                     
                     );
             }
+=======
+            Account acc1 = new Account(1001, "Alex", 500.0);
+            Account acc2 = new SavingsAccount(1002, "Anna", 500.0, 0.01);
+
+            acc1.Withdraw(10.0);
+            acc2.Withdraw(10.0);
+
+            Console.WriteLine(acc1.Balance);
+            Console.WriteLine(acc2.Balance);
+
+
+
+>>>>>>> 9c65009927c0e9a4b7b819ceb3352ba3923c39f6
 
         }
     }

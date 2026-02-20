@@ -4,7 +4,11 @@ using System.Collections.Generic;
 
 namespace AbstractBankAccount.Entities
 {
+<<<<<<< HEAD
     abstract class Account
+=======
+    class Account
+>>>>>>> 9c65009927c0e9a4b7b819ceb3352ba3923c39f6
     {
 
         public int Number {  get; set; }
