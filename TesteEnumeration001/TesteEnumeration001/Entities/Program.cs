@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Buffers;
 
-namespace MyApplication {
+namespace TesteEnumeration001.Entities {
 
 
     enum Level {
