@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace InterfaceAula01.Services
 {
-    class BrazilTaxService
+    class BrazilTaxService : ITaxService
     {
         public double Tax(double amount)
         {
@@ -17,5 +17,6 @@ namespace InterfaceAula01.Services
                 return amount * 0.15;
             }
         }
+
     }
 }
